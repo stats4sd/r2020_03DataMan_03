@@ -70,7 +70,7 @@ summarize(imdb_grouped, meanVotes = mean(numVotes))
 
 ```{r Q4, echo=FALSE}
 question("What should I add to the above command to obtain the average number of votes by year",
-  answer("arrange(numVotes) in between the two functions"),
+  answer("`arrange(numVotes)` in between the two functions"),
   answer("`ungroup(imdb_grouped)` after the function summarize()"),
   answer("`imdb_grouped <-` in front of the function group_by()", correct=TRUE),
   answer("`%>%` after the function group_by()"), allow_retry = TRUE,random_answer_order = TRUE
@@ -247,6 +247,6 @@ The official dplyr documentation: <a href="https://dplyr.tidyverse.org/" target=
 dplyr CheatSheet:<a href="https://github.com/rstudio/cheatsheets/blob/master/data-transformation.pdf" target="_blank">https://github.com/rstudio/cheatsheets/blob/master/data-transformation.pdf   </a>  
 
 Data Manipulation Tools - Rstudio video:
-<a href="https://www.youtube.com/watch?v=Zc_ufg4uW4U" target="_blank">dplyr -- Pt 3 Intro to the Grammar of Data Manipulation with R   </a> 
+<a href="https://www.youtube.com/watch?v=Zc_ufg4uW4U" target="_blank">https://www.youtube.com/watch?v=Zc_ufg4uW4U   </a> 
 
 Some documentation on subsetting r-objects using base-R: <a href="https://bookdown.org/rdpeng/rprogdatascience/subsetting-r-objects.html" target="_blank">https://bookdown.org/rdpeng/rprogdatascience/subsetting-r-objects.html </a> 
